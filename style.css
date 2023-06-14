@@ -1435,6 +1435,22 @@ form textarea {
       min-height: 720px;
       padding-bottom: 100px;
       background-size: cover; }
+  .hero .slide-content {
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    width: 80%;
+    margin: 0 auto; }
+    .hero .slide-content .slide-title {
+      font-size: 60px;
+      font-size: 4em;
+      font-weight: 300; }
+    .hero .slide-content p {
+      font-size: 24px;
+      font-size: 1.6em; }
+    .hero .slide-content .button, .hero .slide-content form input[type="submit"], form .hero .slide-content input[type="submit"], .hero .slide-content form button, form .hero .slide-content button, .hero .slide-content form input[type="reset"], form .hero .slide-content input[type="reset"] {
+      font-size: 20px;
+      font-size: 1.3333333333em; }
   .hero .hero-content {
     color: white; }
     .hero .hero-content span {
