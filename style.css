@@ -1459,7 +1459,50 @@ form textarea {
     .hero .slide-content .button, .hero .slide-content form input[type="submit"], form .hero .slide-content input[type="submit"], .hero .slide-content form button, form .hero .slide-content button, .hero .slide-content form input[type="reset"], form .hero .slide-content input[type="reset"] {
       font-size: 20px;
       font-size: 1.3333333333em; }
-  .hero .hero-content {
+  .hero .flex-control-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 8;
+    text-align: center; }
+    .hero .flex-control-nav li {
+      display: inline-block;
+      margin: 30px 5px; }
+      .hero .flex-control-nav li a {
+        width: 25px;
+        height: 25px;
+        background: white;
+        border-radius: 50%;
+        display: block;
+        overflow: hidden;
+        text-indent: -9999px;
+        position: relative;
+        cursor: pointer; }
+        .hero .flex-control-nav li a:before {
+          content: " ";
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          background: #69acc7;
+          border-radius: 50%;
+          opacity: 0;
+          -webkit-transition: .3s ease;
+                  transition: .3s ease;
+          -webkit-transform: scale(0);
+              -ms-transform: scale(0);
+                  transform: scale(0); }
+        .hero .flex-control-nav li a.flex-active:before, .hero .flex-control-nav li a:hover:before {
+          opacity: 1;
+          -webkit-transform: scale(1);
+              -ms-transform: scale(1);
+                  transform: scale(1); }
+/*   .hero .hero-content {
     color: white; }
     .hero .hero-content span {
       padding: 10px;
@@ -1472,7 +1515,7 @@ form textarea {
     background: #303236;
     font-size: 20px;
     font-size: 1.25em;
-    padding: 10px 30px; }
+    padding: 10px 30px; } */
 
 .fullwidth-block {
   padding: 70px 0; }
