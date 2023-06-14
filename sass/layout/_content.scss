@@ -1,0 +1,174 @@
+.fullwidth-block{
+	padding: 50px 0;
+
+	.section-title{
+		@include em(24);
+		text-transform: uppercase;
+		color: $strong-color;
+	}
+}
+
+.news{
+	text-align: center;
+	margin-bottom: 30px;
+
+	.news-image{
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.news-title{
+		@include em(14);
+		margin: 0 0 10px;
+	}
+	.date{
+		color: $muted-color;
+		@include em(12);
+		font-family: $primary-font;
+		text-transform: lowercase;
+
+		.fa{
+			@include rem(16);
+			margin-right: 5px;
+		}
+	}
+}
+
+.event-list{
+	list-style: none;
+	margin-bottom: 30px;
+
+	li{
+		padding: 10px 50% 10px 0;
+		padding-right: 50%;
+		position: relative;
+		border-bottom: 1px solid $border-color;
+		&:first-child{
+			border-top: 1px solid $border-color;
+		}
+	}
+
+	.event-title{
+		display: inline-block;
+		margin-bottom: 0;
+		@include em(14);
+	}
+	.event-meta{
+		position: absolute;
+		width: 50%;
+		right:0;
+		color: $muted-color;
+		@include em(12);
+		font-weight: 400;
+		text-transform: uppercase;
+		font-family: $primary-font;
+		text-transform: lowercase;
+
+		@include clearfix;
+
+		span{
+			width: 50%;
+			float: left;
+			@include rem(12);
+			.fa{margin-right: 5px;}
+		}
+	}
+
+	&.large{
+		li{
+			padding: 20px 0;
+		}
+		.event-title{
+			display: block;
+			margin-bottom: 10px;
+		}
+		.event-meta{
+			position: relative;
+			margin-bottom: 20px;
+			display: block;
+
+			span{
+				width: auto;
+				margin-right: 30px;
+			}
+			.date{
+				width: 150px;
+			}
+		}
+	}
+}
+
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.seremon-list{
+	list-style: none;
+	margin-bottom: 30px;
+
+	li{
+		padding: 10px 0 10px 80px;
+		position: relative;
+		border-bottom: 1px solid $border-color;
+		min-height: 70px;
+
+		&:first-child{
+			border-top: 1px solid $border-color;
+		}
+	}
+	img{
+		position: absolute;
+		left:0;
+		top: 10px;
+	}
+	.seremon-title{
+		margin-bottom: 10px;
+		@include em(14);
+	}
+	.seremon-meta{
+		@include em(12);
+		color: $muted-color;
+		font-family: $primary-font;
+		text-transform: lowercase;
+		.pastor{margin-bottom: 5px;}
+		.fa{
+			width: 20px;
+		}
+	}
+
+	&.large{
+		li{
+			padding-left:140px;
+			min-height: 150px;
+
+		}
+		.seremon-meta{
+			.pastor,.date{
+				display: inline-block;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+.family{
+	width: 33.333%;
+	float: left;
+	padding: 0 15px;
+	text-align: center;
+	margin-bottom: 30px;
+
+	@media screen and (max-width: 640px){width: 50%}
+	@media screen and (max-width: 480px){width: 100%}
+
+	.family-image{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+		margin-bottom: 10px;
+	}
+	.family-name{
+		margin-bottom: 5px;
+		@include em(14);
+		font-weight: 600;
+	}
+}

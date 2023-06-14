@@ -1,0 +1,26 @@
+/*
+ * Reusable Components Style
+ */
+
+.button{
+	display: inline-block;
+	background: #e2caae;
+	background: linear-gradient(#e2caae,#c39f70);
+	border-bottom: 1px solid #a68861;
+	box-shadow: 0 2px 0 rgba(0,0,0,.1);
+	border-radius: 5px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	color: #715b3e;
+	text-transform: uppercase;
+	font-family: $primary-font;
+	font-weight: 400;
+	line-height: normal;
+
+	&.secondary{
+		background: #e3dfda;
+		background: linear-gradient(#e3dfda, #d0cbc4);
+		border-bottom: 1px solid #b1aea8;
+		color: #7c7975;
+	}
+}

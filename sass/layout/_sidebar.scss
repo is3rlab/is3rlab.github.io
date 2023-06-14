@@ -1,0 +1,29 @@
+.sidebar{
+	.widget{
+		margin-bottom: 40px;
+
+		.widget-title{
+			color: $strong-color;
+			@include em(18);
+			font-weight: 600;
+		}
+	}
+}
+
+.arrow{
+	list-style-image: url(images/arrow.png);
+	list-style-position: inside;
+
+	li{
+		padding: 10px 0;
+		border-bottom: 1px solid $border-color;
+
+		a{
+			display: block;
+			color: $body-color;
+			transition: .3s ease;
+
+			&:hover{color: $accent-color}
+		}
+	}
+}

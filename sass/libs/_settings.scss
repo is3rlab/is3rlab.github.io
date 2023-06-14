@@ -1,0 +1,18 @@
+// Font family
+$primary-font      : "Novecento Sans","Raleway", "Noto Sans" "Open Sans", sans-serif;
+$secondary-font    : arial,sans-serif;
+
+
+// Color Variables
+$accent-color      : #8f7655;
+$primary-color     : $accent-color;
+$secondary-color   : #363641;
+
+$strong-color      : #544531;
+$body-color        : #89837c;
+$muted-color       : #a59e95;
+$border-color: #e5e5e5;
+
+// Grid system
+$grid-columns      : 12 !default;
+$grid-gutter-width : 30px !default;
