@@ -1419,6 +1419,22 @@ form textarea {
     margin-bottom: 20px;
     max-width: 100%;
     height: auto; }
+  .hero .slides {
+    list-style: none;
+    *zoom: 1; }
+    .hero .slides:after {
+      content: " ";
+      clear: both;
+      display: block;
+      overflow: hidden;
+      height: 0; }
+    .hero .slides li {
+      width: 100%;
+      margin-right: -100%;
+      float: left;
+      min-height: 720px;
+      padding-bottom: 100px;
+      background-size: cover; }
   .hero .hero-content {
     color: white; }
     .hero .hero-content span {
