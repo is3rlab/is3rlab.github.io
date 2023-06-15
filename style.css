@@ -1221,7 +1221,6 @@ form input[type="submit"], form button, form input[type="reset"] {
       height: 0; }
     .hero .slides li {
       background-size: cover;
-      text-align: center;
       width: 100%;
       margin-right: -100%;
       float: left;
