@@ -1471,6 +1471,12 @@ form input[type="submit"], form button, form input[type="reset"] {
       .arrow li a:hover {
         color: #8f7655; }
 
+.map {
+  min-height: 300px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden; }
+
 /*
  * Footer Styles
  */
