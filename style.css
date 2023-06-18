@@ -1330,6 +1330,10 @@ form input[type="submit"], form button, form input[type="reset"] {
       font-size: 1.1428571429rem;
       margin-right: 5px; }
 
+.publication{
+  margin-bottom: 20px;
+}
+
 .event-list {
   list-style: none;
   margin-bottom: 30px; }
