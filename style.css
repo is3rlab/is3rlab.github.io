@@ -1520,7 +1520,7 @@ ul.address {
 ul.bullet {
   list-style-image: url(images/bullet.png);
   list-style-position: inside; 
-/*   margin-bottom: 20px; */
+  margin-bottom: 20px !important;
   }
   ul.bullet li {
     padding: 10px 0;
