@@ -1524,7 +1524,8 @@ ul.bullet {
   }
   ul.bullet li {
     padding: 10px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+    margin-bottom: 20px;}
     ul.bullet li a {
       color: #acacb1; }
       ul.bullet li a:hover {
