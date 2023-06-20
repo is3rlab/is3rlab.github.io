@@ -1496,6 +1496,12 @@ form input[type="submit"], form button, form input[type="reset"] {
   border-radius: 5px;
   overflow: hidden; }
 
+.media-iframe {
+  width: 90%;
+  border: 1px solid #E2E2E2;
+  border-radius: 4px;
+}
+
 #box{float:left; position:relative;width:250px;}.div1{width:285px;}.div2{position:fixed;_position:absolute;top:0;z-index:250;}
 
 /*
