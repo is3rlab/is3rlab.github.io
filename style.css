@@ -1305,8 +1305,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     font-size: 24px;
     font-size: 1.7142857143em;
     text-transform: uppercase;
-    color: #544531;
-    margin-bottom: 20px !important;}
+    color: #544531; }
 
 .news {
   text-align: center;
