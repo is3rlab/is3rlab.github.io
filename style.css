@@ -1285,7 +1285,8 @@ form input[type="submit"], form button, form input[type="reset"] {
 .page-head {
   background-size: cover;
   background-position: center center;
-  padding: 50px;
+/*   padding: 50px; */
+  padding: 20px;
   text-align: center; }
   .page-head .page-title {
     font-weight: 100;
