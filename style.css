@@ -1291,7 +1291,6 @@ form input[type="submit"], form button, form input[type="reset"] {
     font-weight: 100;
     font-size: 72px;
     font-size: 5.1428571429em;
-    margin-top: -20px;
     margin-bottom: 0;
     color: white;
     word-break: break-word; }
