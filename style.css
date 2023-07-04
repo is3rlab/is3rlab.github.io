@@ -1349,11 +1349,6 @@ form input[type="submit"], form button, form input[type="reset"] {
   height: 100%;
 }
 
-.twtr-tweet-text {
-    font size: 50%;
-    font-family: Georgia, Serif;
-}
-
 .event-list {
   list-style: none;
   margin-bottom: 30px; }
