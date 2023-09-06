@@ -1304,6 +1304,7 @@ form input[type="submit"], form button, form input[type="reset"] {
   .fullwidth-block .section-title {
     font-size: 24px;
     font-size: 1.7142857143em;
+    margin-bottom: 20px;
     text-transform: uppercase;
     color: #544531; }
 
